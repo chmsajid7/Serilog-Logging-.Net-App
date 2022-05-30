@@ -8,8 +8,8 @@ namespace Serilog_To_BlobStorage_App.Controllers
     {
         private static readonly string[] Summaries = new[]
         {
-        "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-    };
+            "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
+        };
 
         private readonly ILogger<WeatherForecastController> _logger;
 
@@ -24,9 +24,9 @@ namespace Serilog_To_BlobStorage_App.Controllers
 
             _logger.LogInformation("INFORMATION -> WeatherForecastController");
 
-            _logger.LogTrace("HHHHHHHHHHH");
-
-            _logger.LogError("EEeee");
+            _logger.LogTrace("INFORMATION -> WeatherForecastController");
+            
+            _logger.LogError("INFORMATION -> WeatherForecastController");
 
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
             {
