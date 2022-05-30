@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "wnLxsZdjip9x7PWd/4NwCkT5s0LD19HSLNgIPgMPT1E=",
+  "Source": "Serilog-To-BlobStorage-App",
+  "BasePath": "_content/Serilog-To-BlobStorage-App",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
